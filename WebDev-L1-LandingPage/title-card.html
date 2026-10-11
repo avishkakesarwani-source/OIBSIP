@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo Title Card - Task 1</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
     <style>
         * {
             box-sizing: border-box;
@@ -12,9 +12,9 @@
             padding: 0;
         }
         body {
-            font-family: 'Inter', sans-serif;
-            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-            color: #f8fafc;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: linear-gradient(135deg, #0b0f19 0%, #111827 100%);
+            color: #f9fafb;
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -23,20 +23,20 @@
             padding: 2rem;
         }
         .card {
-            background: rgba(30, 41, 59, 0.7);
+            background: rgba(17, 24, 39, 0.85);
             border: 1px solid rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(12px);
-            padding: 4rem 3rem;
+            backdrop-filter: blur(16px);
+            padding: 4.5rem 3rem;
             border-radius: 1.5rem;
-            max-width: 700px;
+            max-width: 720px;
             width: 100%;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
         }
         .org-badge {
             display: inline-block;
-            background: rgba(37, 99, 235, 0.2);
+            background: rgba(59, 130, 246, 0.15);
             color: #60a5fa;
-            border: 1px solid rgba(37, 99, 235, 0.4);
+            border: 1px solid rgba(59, 130, 246, 0.35);
             padding: 0.5rem 1.25rem;
             border-radius: 9999px;
             font-size: 0.95rem;
@@ -46,19 +46,20 @@
             margin-bottom: 2rem;
         }
         .name {
-            font-size: 3rem;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 3.25rem;
             font-weight: 800;
             margin-bottom: 1.5rem;
-            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+            background: linear-gradient(135deg, #ffffff 0%, #94a3b8 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
         .details {
             display: flex;
             justify-content: center;
-            gap: 2rem;
-            margin-top: 1.5rem;
-            padding-top: 1.5rem;
+            gap: 2.5rem;
+            margin-top: 1.75rem;
+            padding-top: 1.75rem;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
         }
         .detail-item {
@@ -66,13 +67,14 @@
         }
         .detail-label {
             font-size: 0.85rem;
-            color: #94a3b8;
+            color: #9ca3af;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
+            letter-spacing: 0.75px;
             margin-bottom: 0.35rem;
         }
         .detail-val {
-            font-size: 1.25rem;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.35rem;
             font-weight: 700;
             color: #38bdf8;
         }
