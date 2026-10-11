@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Title Card - Task 3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #e0e7ff 0%, #fae8ff 50%, #fef3c7 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 1.5rem;
+        }
+        .card {
+            background: #ffffff;
+            border: 1px solid rgba(226, 232, 240, 0.9);
+            box-shadow: 0 20px 40px rgba(99, 102, 241, 0.15);
+            padding: 4rem 3rem;
+            border-radius: 24px;
+            max-width: 680px;
+            width: 100%;
+        }
+        .badge {
+            display: inline-block;
+            background: #eef2ff;
+            color: #4f46e5;
+            border: 1px solid #c7d2fe;
+            padding: 0.45rem 1.25rem;
+            border-radius: 9999px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            margin-bottom: 1.75rem;
+        }
+        .name {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #1e1b4b;
+            margin-bottom: 1.25rem;
+        }
+        .info-row {
+            display: flex;
+            justify-content: center;
+            gap: 2.5rem;
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #f1f5f9;
+        }
+        .info-col span {
+            display: block;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            color: #6b7280;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.25rem;
+        }
+        .info-col strong {
+            font-size: 1.25rem;
+            color: #4f46e5;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <span class="badge">Oasis Infobyte Internship (OIBSIP)</span>
+        <h1 class="name">Avishka Kesarwani</h1>
+        <div class="info-row">
+            <div class="info-col">
+                <span>Track</span>
+                <strong>Web Development</strong>
+            </div>
+            <div class="info-col">
+                <span>Task</span>
+                <strong>Task 3 · Temperature Converter</strong>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
